@@ -3,8 +3,8 @@ import { StyleSheet, View, Text, ScrollView, Image, TouchableOpacity, FlatList, 
 import { Stack, useRouter } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
 import { Heart, MessageCircle, Share2 } from 'lucide-react-native';
-import { FeedItem } from '@/components/FeedItem';
-import { StoryCircle } from '@/components/StoryCircle';
+import FeedItem from '@/components/FeedItem';
+import StoryCircle from '@/components/StoryCircle';
 import { mockFeedData, mockStories } from '@/data/mockData';
 
 export default function HomeScreen() {

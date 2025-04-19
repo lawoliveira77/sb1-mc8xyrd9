@@ -3,7 +3,7 @@ import { StyleSheet, View, Text, TextInput, FlatList, Image, TouchableOpacity } 
 import { Stack, useRouter } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
 import { Search, CirclePlus as PlusCircle } from 'lucide-react-native';
-import { MessagePreview } from '@/components/MessagePreview';
+import MessagePreview from "@/components/MessagePreview";
 import { mockConversations } from '../../data/mockData';
 
 export default function MessagesScreen() {
